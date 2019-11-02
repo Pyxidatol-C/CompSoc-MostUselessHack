@@ -1,0 +1,44 @@
+.fst-name-toolbar {
+  position: relative;
+  justify-content: space-around;
+}
+
+.fst-name-typography {
+  flex: 1;
+}
+
+.letter-cell {
+  border: 1px solid #ff4c4c;
+  color: #ff4c4c;
+  text-align: center;
+  border-radius: 100%;
+  margin: 5px;
+  width: 20px;
+  height: 20px;
+  user-select: none;
+}
+
+.cell-selected {
+  background-color: #383838;
+  color: #383838;
+  /*transition: background-color 1000ms linear;*/
+}
+
+.letter-column {
+  display: block;
+}
+
+.letter-parent {
+  display: inline-flex;
+  margin: 0 auto;
+}
+
+.fab1 {
+  left: 50px;
+  bottom: 50px;
+}
+
+.fab2 {
+  left: 50px;
+  bottom: 150px;
+}
