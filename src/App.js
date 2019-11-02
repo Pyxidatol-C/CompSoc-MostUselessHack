@@ -1,4 +1,5 @@
 import React from 'react';
+import Typography from "@material-ui/core/Typography";
 import TextField from "@material-ui/core/TextField";
 
 import './App.css';
@@ -45,6 +46,10 @@ class App extends React.Component {
   render() {
     return (
         <div className="App">
+          <Typography variant="h2">
+            Registration Form
+          </Typography>
+
           <TextField
               key={"first name field#" + this.state.firstNameInputOpen + "#" + this.state.firstNameInputValue}
               required
