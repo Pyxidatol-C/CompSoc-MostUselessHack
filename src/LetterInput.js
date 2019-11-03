@@ -65,15 +65,14 @@ class LetterInput extends React.Component {
     const lettersSet = [capsLetters].concat(
         [...Array(this.state.selectedLetters.length - 3).keys()].map(() => capsLettersAndSymbols).concat(
             [capsLetters, capsLetters]));
-    console.log(lettersSet.length);
     return (
         <div>
           <Dialog fullScreen
                   open={this.props.isOpen}
           >
             <AppBar position="sticky">
-              <Toolbar className="fst-name-toolbar">
-                <Typography variant="h5" className="fst-name-typography">
+              <Toolbar className="title-toolbar">
+                <Typography variant="h5" className="title-typography">
                   {this.props.title}
                 </Typography>
                 <IconButton

@@ -1,9 +1,9 @@
-.fst-name-toolbar {
+.title-toolbar {
   position: relative;
   justify-content: space-around;
 }
 
-.fst-name-typography {
+.title-typography {
   flex: 1;
 }
 

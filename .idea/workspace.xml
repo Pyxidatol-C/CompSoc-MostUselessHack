@@ -2,9 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="000c313d-a618-4c87-b48f-1338bc347ce0" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/DateInput.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/DateInput.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/App.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/LetterInput.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/LetterInput.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/LetterInput.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/LetterInput.js" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -76,7 +80,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1572718801753</updated>
-      <workItem from="1572718804574" duration="12158000" />
+      <workItem from="1572718804574" duration="17382000" />
     </task>
     <task id="LOCAL-00001" summary="SAT text input">
       <created>1572733136214</created>
@@ -85,7 +89,14 @@
       <option name="project" value="LOCAL" />
       <updated>1572733136214</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="title">
+      <created>1572733431940</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1572733431940</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -104,6 +115,7 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="SAT text input" />
-    <option name="LAST_COMMIT_MESSAGE" value="SAT text input" />
+    <MESSAGE value="title" />
+    <option name="LAST_COMMIT_MESSAGE" value="title" />
   </component>
 </project>

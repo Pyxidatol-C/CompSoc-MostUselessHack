@@ -1,0 +1,12 @@
+.date-display {
+  font-family: Courier, monospace;
+  display: inline-flex;
+  margin: 0 auto;
+  padding-top: 25%;
+  font-size: xx-large;
+}
+
+.date-field {
+  background-color: #f8f8f8;
+  border: 1px solid dimgray;
+}

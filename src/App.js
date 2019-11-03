@@ -1,9 +1,11 @@
 import React from 'react';
+import Button from "@material-ui/core/Button";
 import Typography from "@material-ui/core/Typography";
 import TextField from "@material-ui/core/TextField";
 
 import './App.css';
 import LetterInput from "./LetterInput";
+import DateInput from "./DateInput";
 
 class App extends React.Component {
   constructor(props) {
@@ -14,6 +16,8 @@ class App extends React.Component {
       firstNameInputValue: "",
       lastNameInputOpen: false,
       lastNameInputValue: "",
+      dobInputOpen: false,
+      dobInputValue: "",
     };
   }
 
@@ -43,9 +47,24 @@ class App extends React.Component {
     });
   }
 
+  handleDobInputOpen() {
+    this.setState({
+      dobInputOpen: true,
+    });
+  }
+
+  handleDobInputClose(date) {
+    this.setState({
+      dobInputOpen: false,
+      dobInputValue: date,
+    });
+  }
+
   render() {
     return (
         <div className="App">
+          <br/>
+          <br/>
           <Typography variant="h2">
             Registration Form
           </Typography>
@@ -78,6 +97,29 @@ class App extends React.Component {
               defaultValue={this.state.lastNameInputValue}
               onExit={this.handleLastNameInputClose.bind(this)}
           />
+          <TextField
+              key={"dob#" + this.state.dobInputValue}
+              required
+              label="Year of birth"
+              onFocus={this.handleDobInputOpen.bind(this)}
+              value={this.state.dobInputValue}
+          />
+          <DateInput
+              title={"Pick your year of birth"}
+              isOpen={this.state.dobInputOpen}
+              onExit={this.handleDobInputClose.bind(this)}
+              defaultValue={this.state.dobInputValue}/>
+
+          <br/>
+          <Button
+              className="submit-btn"
+              color="primary"
+              variant="contained"
+              disabled={this.state.dobInputValue < 2001}
+              onClick={() => window.location.href = "https://www.youtube.com/watch?v=dQw4w9WgXcQ"}
+          >
+            Submit
+          </Button>
         </div>
     )
   }
